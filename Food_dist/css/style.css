@@ -11,10 +11,6 @@ a {
     text-decoration: none
 }
 
-.show {
-    display: block;
-}
-
 .hide {
     display: none;
 }
@@ -734,4 +730,8 @@ a {
     display: block;
     width: 280px;
     margin: 0 auto
+}
+
+.show {
+    display: block;
 }
