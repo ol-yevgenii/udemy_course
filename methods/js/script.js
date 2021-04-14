@@ -20,8 +20,8 @@
 
 // every/some
 
-// const some = [4, 5, 5];
-// // console.log(some.some(item => typeof(item) === 'number'));
+const some = [4, 5, 5, "gsf"];
+console.log(some.some(item => typeof(item) === 'number'));
 
 // console.log(some.every(item => typeof(item) === 'number'));
 
@@ -32,10 +32,10 @@
 // const res = arr.reduce((sum, current) => sum + current);
 // console.log(res);
 
-// const arr = ['apple', 'pear', 'plum'];
+const arr = ['apple', 'pear', 'plum'];
 
-// const res = arr.reduce((sum, current) => `${sum}, ${current}`, 'watermelon');
-// console.log(res);
+const res = arr.reduce((sum, current) => `${sum}, ${current}`, 'watermelon');
+console.log(res);
 
 const obj = {
     ivan: 'persone',
