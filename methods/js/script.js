@@ -20,8 +20,8 @@
 
 // every/some
 
-const some = [4, 5, 5, "gsf"];
-console.log(some.some(item => typeof(item) === 'number'));
+// const some = [4, 5, 5, "gsf"];
+// console.log(some.some(item => typeof(item) === 'number'));
 
 // console.log(some.every(item => typeof(item) === 'number'));
 
